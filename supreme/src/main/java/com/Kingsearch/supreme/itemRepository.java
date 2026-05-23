@@ -1,4 +1,4 @@
-package com.Kingsearch.supreme.repository;
+package com.Kingsearch.supreme;
 
 import com.Kingsearch.supreme.model.Item;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,7 +1,7 @@
 package com.Kingsearch.supreme.controller;
 
 import com.Kingsearch.supreme.model.Item;
-import com.Kingsearch.supreme.repository.itemRepository;
+import com.Kingsearch.supreme.itemRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

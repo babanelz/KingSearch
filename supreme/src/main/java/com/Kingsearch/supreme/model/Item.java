@@ -13,20 +13,23 @@ public class Item {
 
     private String name;
     private String description;
+    private String category;
+    private String location;
+    private String phoneNumber;
+    private String date;
+    private String status;
 
     // ✅ EMPTY CONSTRUCTOR (VERY IMPORTANT)
     public Item() {
     }
 
-    public void Item(Long id, String name, String description) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-    }
+
     public Item(Long id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
+
+
     }
 
     // getters and setters
@@ -53,4 +56,5 @@ public class Item {
     public void setDescription(String description) {
         this.description = description;
     }
+
 }

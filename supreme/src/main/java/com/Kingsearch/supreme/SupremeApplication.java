@@ -7,7 +7,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 
 import com.Kingsearch.supreme.model.Item;
-import com.Kingsearch.supreme.repository.itemRepository;
 
 @SpringBootApplication
 public class SupremeApplication {
